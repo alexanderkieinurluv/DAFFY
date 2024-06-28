@@ -12,7 +12,7 @@ if bit == '64bit':
         from tyrontest import main_menu
         main_menu()
     else:
-        from tyrontest import main_menu
+        from lava import main_menu
         main_menu()
 else:
     print ('Your device is not supported ')
