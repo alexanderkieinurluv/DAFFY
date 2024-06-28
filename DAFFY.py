@@ -8,7 +8,7 @@ except:
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('lava.so'):
-        os.system('curl -L https://github.com/ALEXANDERKIEINURLUV/lava/blob/main/lava.cpython-311.so?raw=true -o tyrontest.so')
+        os.system('curl -L https://github.com/ALEXANDERKIEINURLUV/lava/blob/main/lava.cpython-311.so?raw=true -o lava.so')
         from tyrontest import main_menu
         main_menu()
     else:
